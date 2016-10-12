@@ -1,0 +1,15 @@
+Package: scvxclustr
+Type: Package
+Title: Sparse convex clustering
+Version: 0.1
+Author: Yilong Zhang, Binhuan Wang, Wei Sun, Yixin Fang
+Maintainer: Yilong Zhang <elong0527@gmail.com>
+Description: Alternating Minimization Algorithm (AMA) and Alternating Direction Method of Multipliers (ADMM) splitting methods for sparse convex clustering.
+License: GPL (>= 2)
+LazyData: TRUE
+Imports: Rcpp (>= 0.11.5)
+LinkingTo: Rcpp, RcppEigen
+Depends: cvxclustr, mclust, gglasso, Matrix, igraph
+RoxygenNote: 5.0.1
+NeedsCompilation: yes
+Packaged: 2016-10-12 15:26:55 UTC; zhanyilo
