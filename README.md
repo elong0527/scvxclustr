@@ -14,6 +14,12 @@ library(devtools)
 install_github("elong0527/scvxclustr")
 library(scvxclustr)
 ```
+or directly install on CRAN: [https://cran.r-project.org/web/packages/scvxclustr/index.html]
+
+```r
+install.packages("scvxclustr")
+```
+
 
 ### Example ###
 
