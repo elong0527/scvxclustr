@@ -35,6 +35,7 @@ NULL
 #' @return \code{eva}   the absolute difference of U between two most recent iteration.
 #' @return \code{method} fitted method ("ama" or "admm")
 #'  
+#' @references \url{https://arxiv.org/abs/1601.04586}
 #' @export
 scvxclust <- function(X,w,Gamma1, Gamma2, Gamma2_weight, nu=1,tol_abs=1e-3,tol_rel=1e-4,max_iter=1e4,type=2, verbose = F, method = "ama", init = NULL){
 
